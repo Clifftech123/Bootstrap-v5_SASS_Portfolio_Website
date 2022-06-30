@@ -1,0 +1,21 @@
+// import the custom style
+@use 'custom';
+
+// import components
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/maxins';
+@use 'components/typography';
+
+
+
+// import of the section
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/compines';
+@use 'sections/services';
+@use 'sections/testimonies';
+@use 'sections/faq';
+@use 'sections/portfilio';
+@use 'sections/Get-started';
+@use 'sections/footer';
