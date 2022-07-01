@@ -1,10 +1,16 @@
 
 // this is my  theme colors 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Raleway:wght@100&display=swap');
+$navbar-font: 'Raleway', sans-serif;
+$contact-font: 'DM Serif Display', serif;
+
+
 // color using in the page
 $brand-color: #6366F1;
-$dark-color: #1E293B;
-$mid-color: #B8BFC6;
+$purple: #61045f;
+$mid-color: #aa076b;
 $light-color: #FFFFFF;
 
 
@@ -24,8 +30,8 @@ $black:    #000 ;
 
 
 // my primary and secondary colors 
-$primary:       $brand-color;
-$secondary:     $mid-color;
+$primary:       $mid-color ;
+$secondary:     $purple;
 
 
 // Accoding  custom

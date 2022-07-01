@@ -1,0 +1,24 @@
+// google font 
+
+@use '../custom' as *;
+@use '../components/maxins' as *;
+
+// nav bar
+.menu{
+    @include gradient;
+    font-family: $navbar-font;
+
+    li{
+        padding: 0.09rem;
+
+        a{
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+            margin: 10px;
+            
+
+        }
+
+    }
+}
