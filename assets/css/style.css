@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 /*!
  * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10732,6 +10733,11 @@ textarea.form-control-lg {
   background-color: #fff;
   font-family: "DM Serif Display", serif;
 }
+@media (max-width: 575.98px) {
+  .btn-rounded {
+    display: none;
+  }
+}
 .btn-rounded span {
   position: absolute;
   background-color: #aa076b;
@@ -10752,9 +10758,41 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+/*
+this is  the header log text at the top of the page
+*/
+.logo {
+  font-weight: 1000;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+
+.headig-text {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.headig-text .name {
+  display: inline-block;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.headig-text .description {
+  font-size: 1rem;
+  display: block;
+  ont-family: "Poppins", sans-serif;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(170, 7, 107, 0.95), rgba(97, 4, 95, 0.95));
   font-family: "Raleway", sans-serif;
+}
+@media (max-width: 575.98px) {
+  .menu {
+    border-bottom: none;
+    font-weight: 900;
+  }
 }
 .menu li {
   padding: 0.09rem;
@@ -10764,6 +10802,27 @@ textarea.form-control-lg {
   text-transform: capitalize;
   font-weight: 600;
   margin: 10px;
+}
+.menu li:hover {
+  border-bottom: 1px solid white;
+  font-weight: 900;
+}
+@media (max-width: 575.98px) {
+  .menu li:hover {
+    border-bottom: none;
+    font-weight: 900;
+  }
+}
+
+.intro {
+  background: linear-gradient(to right, rgba(170, 7, 107, 0.95), rgba(97, 4, 95, 0.95));
+  padding: 10rem 0 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+.imageSAVG {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
