@@ -1,0 +1,45 @@
+
+@use '../custom' as *;
+@use '../components/maxins' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+// the intro section 
+
+/*
+this is  the header log text at the top of the page
+*/
+.logo{
+   font-weight: 1000;
+   font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+   text-transform: capitalize;
+   
+
+
+}
+
+
+
+// this is the  intro section at  the at the navbar section 
+.headig-text{
+   margin-bottom: 1rem;
+   text-transform: capitalize;
+   font-family: 'Poppins', sans-serif;
+
+
+   .name{
+      display: inline-block;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+   }
+   .description{
+      font-size: 1rem;
+      display: block;
+      ont-family: 'Poppins', sans-serif;
+
+   }
+}
+
+
+
+
