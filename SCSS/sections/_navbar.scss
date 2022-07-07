@@ -5,8 +5,17 @@
 
 // nav bar
 .menu{
+   
     @include gradient;
     font-family: $navbar-font;
+
+          @include media-breakpoint-down (sm){
+        
+          border-bottom: none;
+            font-weight: 900;
+
+     
+    }
 
     li{
         padding: 0.09rem;
@@ -15,9 +24,17 @@
             color: $white !important;
             text-transform: capitalize;
             font-weight: 600;
-            margin: 10px;
-            
+            margin: 10px;    
+        }
+        &:hover{
+            border-bottom: 1px solid white;
+            font-weight: 900;
 
+          @include media-breakpoint-down (sm){
+        
+          border-bottom: none;
+            font-weight: 900;
+    }      
         }
 
     }
