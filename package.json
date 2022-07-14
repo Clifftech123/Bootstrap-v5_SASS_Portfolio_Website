@@ -4,7 +4,7 @@
   "description": "Learning Bootstrap v5 with Sass",
   "main": "index.js",
   "scripts": {
-  "compile:sass":"sass --watch SCSS:assets/css"
+    "compile:sass": "sass --watch SCSS:assets/css"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Clifftech123/Bootsrap5_SASS_Portfolio_Website#readme",
   "devDependencies": {
+    "prettier": "2.7.1",
     "sass": "^1.53.0"
   },
   "dependencies": {
