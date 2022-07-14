@@ -13,6 +13,10 @@ $purple: #61045f;
 $mid-color: #aa076b;
 $light-color: #FFFFFF;
 
+// another background colors
+$primary-color: #143887;
+$secondary-color: #D3BAC5;
+$third-color: #00032A;
 
 
 // white and Gray colors
@@ -30,8 +34,9 @@ $black:    #000 ;
 
 
 // my primary and secondary colors 
-$primary:       $mid-color ;
-$secondary:     $purple;
+$primary:       $primary-color;
+$secondary:     $third-color;
+
 
 
 // Accoding  custom
