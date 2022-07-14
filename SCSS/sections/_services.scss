@@ -1,0 +1,61 @@
+// 
+@use '../custom' as *;
+@use '../components/maxins' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+/* Glyph, by Harry Roberts */
+
+
+
+// Base Divider class
+.divider {
+  display: flex;
+  color: $third-color;
+  
+  &:before,
+  &:after {
+    content: "";
+    flex: 1;
+  }
+}
+
+// Base line
+.line {
+  align-items: center;
+  margin: 1em -1em;
+  
+  &:before,
+  &:after {
+    height: 2px;
+    margin: 0 1em;
+  }
+}
+
+
+  .one-line {
+    &:before,
+    &:after {
+    //   @include gradient
+    background-color: $third-color;
+    }
+  }
+
+
+  // ==============CARD SECTION ==============
+ .card{
+      @include media-breakpoint-down (sm){
+       margin: 2rem;
+       display: grid;
+    }
+
+  color: $black;
+  height: 30rem;
+  background-color: #f8f9fa;
+  margin: 20px;
+
+
+
+  }
