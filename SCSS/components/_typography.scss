@@ -1,45 +1,58 @@
 
-@use '../custom' as *;
-@use '../components/maxins' as *;
+   @use '../custom' as *;
+   @use '../components/maxins' as *;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-// the intro section 
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+   // the intro section 
 
-/*
-this is  the header log text at the top of the page
-*/
-.logo{
-   font-weight: 1000;
-   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-   text-transform: capitalize;
-   
-
-
-}
-
-
-
-// this is the  intro section at  the at the navbar section 
-.headig-text{
-   margin-bottom: 1rem;
-   text-transform: capitalize;
+   /*
+   this is  the header log text at the top of the page
+   */
+   .logo{
+      font-weight: 1000;
+      font-size: 20px;
    font-family: 'Poppins', sans-serif;
+      text-transform: capitalize;
 
-
-   .name{
-      display: inline-block;
-      font-weight: 700;
+   }
+   // this is the  intro section at  the at the navbar section 
+   .headig-text{
+      margin-bottom: 1rem;
+      text-transform: capitalize;
       font-family: 'Poppins', sans-serif;
-   }
-   .description{
-      font-size: 1rem;
-      display: block;
-      ont-family: 'Poppins', sans-serif;
 
+
+      .name{
+         display: inline-block;
+         font-weight: 700;
+         font-family: 'Poppins', sans-serif;
+      }
+      .description{
+         font-size: 1rem;
+         display: block;
+         font-family: 'Poppins', sans-serif;
+
+      }
    }
+
+         
+   // OUR SERVICES SECTION 
+   .Service-heading{
+      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 1000;
+      color: $secondary;
+   }
+
+
+   // CARD TITLE
+     .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: $secondary;
+   
 }
-
 
 
 
