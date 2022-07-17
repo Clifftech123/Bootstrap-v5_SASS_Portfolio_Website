@@ -46,16 +46,27 @@
 
   // ==============CARD SECTION ==============
  .card{
-      @include media-breakpoint-down (sm){
-       margin: 2rem;
-       display: grid;
-    }
-
+     
   color: $black;
-  height: 30rem;
+  height: 35rem;
   background-color: #f8f9fa;
   margin: 20px;
-
-
-
   }
+
+  .card:hover {
+  box-shadow: 5px 5px 5px rgba(4, 147, 172, 0.168);
+  transform: scale(1.1);
+  border-radius: 8px;
+}
+
+.card {
+  transition: 0.3s;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+
+
+
