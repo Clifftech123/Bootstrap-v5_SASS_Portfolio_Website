@@ -31,20 +31,57 @@
          font-size: 1rem;
          display: block;
          font-family: 'Poppins', sans-serif;
+         @include media-breakpoint-up(lg) {
+          font-size: 1.5rem;
+          display: inline-block;
+         }
 
       }
    }
 
-         
-   // OUR SERVICES SECTION 
+ 
+
+//=========== COMPANIES SECTION======== 
+// heading line 
+ .heading-line::before{
+   content: "";
+   width: 10rem;
+   height: 0.1rem;
+   display: block;
+   margin: 0 auto;
+   background-color: $primary;
+ }
+
+  .heading-line::after{
+   content: "";
+   width: 2rem;
+   height: 0.2rem;
+   padding-top: 0.5rem;
+   display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+   background-color: $primary;
+ }
+
+
+
+        
+   //=========== OUR SERVICES SECTION ===========
    .Service-heading{
       text-transform: uppercase;
       font-family: 'Poppins', sans-serif;
       font-weight: 1000;
-      color: $secondary;
+      color: $primary;
+   }
+   .service-text-first{
+      font-weight: bolder;
+      font-size: 1.5rem;
+      font-family: 'Poppins', sans-serif;
    }
 
-
+   .service-text-second{
+      border-left: 2px solid black ;
+   }
    // CARD TITLE
      .card-title{
     font-family: 'Poppins', sans-serif;
