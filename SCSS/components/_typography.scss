@@ -11,7 +11,7 @@
    .logo{
       font-weight: 1000;
       font-size: 20px;
-   font-family: 'Poppins', sans-serif;
+      font-family: 'Poppins', sans-serif;
       text-transform: capitalize;
 
    }
@@ -67,21 +67,17 @@
 
         
    //=========== OUR SERVICES SECTION ===========
-   .Service-heading{
-      text-transform: uppercase;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 1000;
-      color: $primary;
+
+   // our Service Text 
+   .our-service{
+   font-family: 'Poppins', sans-serif;
    }
-   .service-text-first{
-      font-weight: bolder;
-      font-size: 1.5rem;
-      font-family: 'Poppins', sans-serif;
+   //  border-right
+   .border-right{
+      border-right: 0.1rem solid $gray-300;
+      height: 100%;
    }
 
-   .service-text-second{
-      border-left: 2px solid black ;
-   }
    // CARD TITLE
      .card-title{
     font-family: 'Poppins', sans-serif;
