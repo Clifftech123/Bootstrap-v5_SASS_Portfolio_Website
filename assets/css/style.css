@@ -10769,6 +10769,9 @@ this is  the header log text at the top of the page
   text-transform: capitalize;
 }
 
+/*
+This section for the intro under the navbar in the homepage 
+*/
 .headig-text {
   margin-bottom: 1rem;
   text-transform: capitalize;
@@ -10791,6 +10794,9 @@ this is  the header log text at the top of the page
   }
 }
 
+/*
+This section contains the components and their  logo"s in the home page
+   */
 .heading-line::before {
   content: "";
   width: 10rem;
@@ -10811,6 +10817,11 @@ this is  the header log text at the top of the page
   background-color: #61045f;
 }
 
+/*
+This service section is one in the home page .
+index.html  this section links to our services 
+.html 
+*/
 .our-service {
   font-family: "Poppins", sans-serif;
 }
@@ -10825,6 +10836,57 @@ this is  the header log text at the top of the page
   font-weight: 700;
   text-transform: capitalize;
   color: #aa076b;
+}
+
+/*
+this is  our  new page is the our services .html that is on the page 
+this page contains our service description.
+
+*/
+.logtext {
+  font-weight: 1000;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+@media (min-width: 992px) {
+  .logtext {
+    font-size: 1.5rem;
+  }
+}
+
+.our-service-heading {
+  display: inline-block;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+@media (min-width: 992px) {
+  .our-service-heading {
+    font-size: 5rem;
+    margin-top: 11rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .our-service-heading {
+    font-size: 3rem;
+    margin-top: rem;
+    margin-top: 2rem;
+  }
+}
+
+.service-discription {
+  font-size: 1rem;
+  display: block;
+}
+@media (min-width: 992px) {
+  .service-discription {
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+}
+@media (max-width: 575.98px) {
+  .service-discription {
+    font-size: 1.5rem;
+  }
 }
 
 .menu {
@@ -10888,6 +10950,35 @@ this is  the header log text at the top of the page
   overflow: hidden;
   border-radius: 5px;
   position: relative;
+}
+
+*,
+*::before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.our-page {
+  height: 80vh;
+  background: linear-gradient(45deg, rgba(97, 4, 95, 0.7), #aa076b), url(/IMAGES/bg_image/marvin-meyer-SYTO3xs06fU-unsplash.jpg) center center;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .service-heading-image {
+    height: 80vh;
+    width: 150%;
+    transform: rotateY(180deg);
+  }
+}
+@media (max-width: 575.98px) {
+  .service-heading-image {
+    transform: rotateY(180deg);
+    height: 55vh;
+    width: 150%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
