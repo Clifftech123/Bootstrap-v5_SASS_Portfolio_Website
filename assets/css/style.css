@@ -10965,6 +10965,13 @@ this page contains our service description.
   background: linear-gradient(45deg, rgba(97, 4, 95, 0.7), #aa076b), url(/IMAGES/bg_image/marvin-meyer-SYTO3xs06fU-unsplash.jpg) center center;
   background-size: cover;
 }
+@media (max-width: 575.98px) {
+  .our-page {
+    height: 80vh;
+    background: linear-gradient(45deg, rgba(97, 4, 95, 0.7), #aa076b), url(/IMAGES/bg_image/marvin-meyer-SYTO3xs06fU-unsplash.jpg) center center;
+    background-size: cover;
+  }
+}
 
 @media (min-width: 992px) {
   .service-heading-image {
