@@ -6,21 +6,20 @@
 
 
   // ==============CARD SECTION ==============
- .card{
+ .cardService{
      
   color: $black;
   height: 35rem;
-  background-color: #fff;
   margin: 20px;
   }
 
-  .card:hover {
+  .cardService:hover {
   box-shadow: 5px 5px 5px rgba(4, 147, 172, 0.168);
   transform: scale(1.1);
   border-radius: 8px;
 }
 
-.card {
+.cardService {
   transition: 0.3s;
   overflow: hidden;
   border-radius: 5px;

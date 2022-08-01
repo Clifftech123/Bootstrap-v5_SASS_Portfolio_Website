@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Clifftech123/Bootsrap5_SASS_Portfolio_Website#readme",
   "devDependencies": {
+    "node-sass": "^7.0.1",
     "prettier": "2.7.1",
     "sass": "^1.53.0"
   },
