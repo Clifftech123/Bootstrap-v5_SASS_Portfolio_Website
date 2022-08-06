@@ -16,6 +16,11 @@ function openModal(e){
 }
 
 // close modal function
-function closeModal(){ 
+function closeModal() { 
     modal.style.display = "none";
 }
+
+
+
+
+
