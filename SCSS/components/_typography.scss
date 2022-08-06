@@ -1,158 +1,159 @@
+@use '../custom' as *;
+@use '../components/maxins' as *;
 
-         @use '../custom' as *;
-         @use '../components/maxins' as *;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+// the intro section 
 
-         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-         // the intro section 
-
-         /*
+/*
          this is  the header log text at the top of the page
          */
-         .logo{
-            font-weight: 1000;
-            font-size: 20px;
-            font-family: 'Poppins', sans-serif;
-            text-transform: capitalize;
+.logo {
+   font-weight: 1000;
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+   text-transform: capitalize;
 
-         }
+}
 
 
 
-         //  ====INTRO SECTION ========
-         /*
+//  ====INTRO SECTION ========
+/*
          This section for the intro under the navbar in the homepage 
          */
 
-         .headig-text{
-            margin-bottom: 1rem;
-            text-transform: capitalize;
-            font-family: 'Poppins', sans-serif;
+.headig-text {
+   margin-bottom: 1rem;
+   text-transform: capitalize;
+   font-family: 'Poppins', sans-serif;
 
 
-            .name{
-               display: inline-block;
-               font-weight: 700;
-               font-family: 'Poppins', sans-serif;
-            }
-            .description{
-               font-size: 1rem;
-               display: block;
-               font-family: 'Poppins', sans-serif;
-               @include media-breakpoint-up(lg) {
-               font-size: 1.5rem;
-               display: inline-block;
-               }
+   .name {
+      display: inline-block;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+   }
 
-            }
-         }
+   .description {
+      font-size: 1rem;
+      display: block;
+      font-family: 'Poppins', sans-serif;
 
-      
+      @include media-breakpoint-up(lg) {
+         font-size: 1.5rem;
+         display: inline-block;
+      }
 
-      //=========== COMPANIES SECTION======== 
-      /*
+   }
+}
+
+
+
+//=========== COMPANIES SECTION======== 
+/*
       This section contains the components and their  logo"s in the home page
          */
-      // heading line 
-      .heading-line::before{
-         content: "";
-         width: 10rem;
-         height: 0.1rem;
-         display: block;
-         margin: 0 auto;
-         background-color: $primary;
-      }
+// heading line 
+.heading-line::before {
+   content: "";
+   width: 10rem;
+   height: 0.1rem;
+   display: block;
+   margin: 0 auto;
+   background-color: $primary;
+}
 
-      .heading-line::after{
-         content: "";
-         width: 2rem;
-         height: 0.2rem;
-         padding-top: 0.5rem;
-         display: block;
-         margin: 0 auto;
-         margin-bottom: 1rem;
-         background-color: $primary;
-      }
+.heading-line::after {
+   content: "";
+   width: 2rem;
+   height: 0.2rem;
+   padding-top: 0.5rem;
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 1rem;
+   background-color: $primary;
+}
 
 
 
-            
-         //=========== OUR SERVICES SECTION ===========
-            //=========== OUR SERVICES NEXT PAGE===========
-         /*
+
+//=========== OUR SERVICES SECTION ===========
+//=========== OUR SERVICES NEXT PAGE===========
+/*
          This service section is one in the home page .
          index.html  this section links to our services 
          .html 
          */
 
-         // our Service Text 
-         .our-service{
-         font-family: 'Poppins', sans-serif;
-         }
-         //  border-right
-         .border-right{
-            border-right: 0.1rem solid $gray-300;
-            height: 100%;
-         }
+// our Service Text 
+.our-service {
+   font-family: 'Poppins', sans-serif;
+}
 
-         // CARD TITLE
-         .card-title{
-         font-family: 'Poppins', sans-serif;
-         font-weight: 700;
-         text-transform: capitalize;
-         color: $secondary;
-         
-      }
+//  border-right
+.border-right {
+   border-right: 0.1rem solid $gray-300;
+   height: 100%;
+}
+
+// CARD TITLE
+.card-title {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   text-transform: capitalize;
+   color: $secondary;
+
+}
 
 
 
-         //=========== OUR SERVICES NEXT PAGE===========
-         /*
+//=========== OUR SERVICES NEXT PAGE===========
+/*
          this is  our  new page is the our services .html that is on the page 
          this page contains our service description.
 
          */
-      .logtext{
-            font-weight: 1000;
-            font-family: 'Poppins', sans-serif;
-            text-transform: capitalize;
-            @include media-breakpoint-up(lg) {
-               font-size: 1.5rem;
-         }
-      }
+.logtext {
+   font-weight: 1000;
+   font-family: 'Poppins', sans-serif;
+   text-transform: capitalize;
+
+   @include media-breakpoint-up(lg) {
+      font-size: 1.5rem;
+   }
+}
 
 
-      .our-service-heading{
-         display: inline-block;
-         font-weight: 700;
-         font-family: 'Poppins', sans-serif;
-         @include media-breakpoint-up(lg) {
-         font-size: 5rem;
-         margin-top: 11rem;
-         }
+.our-service-heading {
+   display: inline-block;
+   font-weight: 700;
+   font-family: 'Poppins', sans-serif;
 
-         @include media-breakpoint-down(sm) {
-         font-size: 3rem;
-         margin-top: rem;
-         margin-top: 2rem
-      }
-      };
+   @include media-breakpoint-up(lg) {
+      font-size: 5rem;
+      margin-top: 11rem;
+   }
 
-      // description text
-      .service-discription{
-         font-size: 1rem;
-         display: block;
-         @include media-breakpoint-up(lg) {
-         font-size: 1.5rem;
-            display: inline-block;
-       }
+   @include media-breakpoint-down(sm) {
+      font-size: 3rem;
+      margin-top: rem;
+      margin-top: 2rem
+   }
+}
 
-        @include media-breakpoint-down(sm) {
-        font-size: 1.5rem;
-      }
-      }
+;
 
+// description text
+.service-discription {
+   font-size: 1rem;
+   display: block;
 
+   @include media-breakpoint-up(lg) {
+      font-size: 1.5rem;
+      display: inline-block;
+   }
 
-
-
-
+   @include media-breakpoint-down(sm) {
+      font-size: 1.5rem;
+   }
+}
