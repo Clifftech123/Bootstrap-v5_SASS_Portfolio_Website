@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Poppins&family=Zen+Maru+Gothic:wght@300&display=swap");
 /*!
  * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10934,9 +10935,9 @@ textarea.form-control-lg {
 }
 
 .cardService {
-  color: #000;
   height: 35rem;
   margin: 20px;
+  background-color: #fff;
 }
 
 .cardService:hover {
@@ -10988,7 +10989,13 @@ textarea.form-control-lg {
   }
 }
 
+/*
+================= 
+OUR SERVICES SECTION CARD
+====================
+*/
 .cardSevices2 {
+  overflow: hidden;
   width: 100%;
   margin-top: 5rem;
 }
@@ -11007,18 +11014,27 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .webHeading {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 }
 
-.webtext {
+.card--text-content {
   font-size: 1.5rem;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 700;
 }
 @media (max-width: 575.98px) {
-  .webtext {
+  .card--text-content {
     font-size: 10px;
+    font-size: 1.5rem;
     margin-bottom: 10px;
   }
+}
+
+.SVG {
+  color: #aa076b;
+  font-size: 3rem;
+  font-weight: 9000;
 }
 
 .modalbnt {
@@ -11030,7 +11046,9 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-/* =================== fFIRST CARD MODAL POP UP ON THE PAGE ============== */
+/* =============================== 
+FIRST CARD MODAL POP UP ON THE PAGE 
+=============================== */
 .mod {
   position: fixed;
   display: none;
@@ -11087,6 +11105,24 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 
-/* =================== SECOND  CARD MODAL POP UP ON THE PAGE ============== */
+/* =================== ================
+CONTACT AS SECTION 
+ ============== ===================== */
+.contact--card {
+  margin-top: 50px;
+}
+@media (max-width: 575.98px) {
+  .contact--card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+}
+
+.contact--form {
+  background-color: #fff;
+  height: 40vh;
+}
 
 /*# sourceMappingURL=style.css.map */
