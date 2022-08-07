@@ -2,6 +2,8 @@
 @use '../components/maxins' as *;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Poppins&family=Zen+Maru+Gothic:wght@300&display=swap');
+
 
 
 *,
@@ -51,11 +53,16 @@
 
 ;
 
+/*
+================= 
+OUR SERVICES SECTION CARD
+====================
+*/
 
 
 
-// OUR SERVICES SECTION CARD
 .cardSevices2 {
+  overflow: hidden;
     width: 100%;
     margin-top: 5rem;
 
@@ -65,34 +72,38 @@
         margin-top: 10rem;
         margin: 0px 0px 0px 0px;
 
+
     }
-}
+};
 
-;
-
-
-// ========== CARD TEXT ========
 // web heading text
 .webHeading {
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
 
     @include media-breakpoint-down(sm) {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
 }
-
-// body text
-.webtext {
+// CARD TEXT CONTENT
+.card--text-content {
     font-size: 1.5rem;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: 700;
 
     @include media-breakpoint-down(sm) {
         font-size: 10px;
-
-        margin-bottom: 10px;
+         font-size: 1.5rem;
+          margin-bottom: 10px;
     }
 }
 
+.SVG{
+    color: $secondary;
+    font-size: 3rem;
+    font-weight: 9000;
+   
+}
 // button 
 .modalbnt {
     width: 100%
@@ -103,12 +114,14 @@
     font-size: 1.5rem;
     color: #fff;
 }
+// END OF THE OUR SERVICE THE CARD 
 
 
 
 
-
-/* =================== fFIRST CARD MODAL POP UP ON THE PAGE ============== */
+/* =============================== 
+FIRST CARD MODAL POP UP ON THE PAGE 
+=============================== */
 .mod {
     position: fixed;
     display: none;
@@ -173,10 +186,33 @@
     color: var(--color-primary);
     font-size: 2.4rem;
     cursor: pointer;
+};
+// END OF THE FIRST MODAL 
+
+
+
+
+
+/* =================== ================
+CONTACT AS SECTION 
+ ============== ===================== */
+.contact--card{
+    margin-top: 50px;
+      @include media-breakpoint-down(sm) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        
+       
+    }
+    
 }
 
-;
-/* =================== SECOND  CARD MODAL POP UP ON THE PAGE ============== */
+.contact--form {
+    background-color: #fff;
+    height: 40vh;
+}
 
 
 
