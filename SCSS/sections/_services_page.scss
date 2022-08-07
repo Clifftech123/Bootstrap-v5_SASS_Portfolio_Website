@@ -82,18 +82,16 @@ OUR SERVICES SECTION CARD
     font-family: 'Poppins', sans-serif;
 
     @include media-breakpoint-down(sm) {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
 // CARD TEXT CONTENT
 .card--text-content {
     font-size: 1.5rem;
-  font-family: 'Zen Maru Gothic', sans-serif;
-  font-weight: 700;
-
     @include media-breakpoint-down(sm) {
         font-size: 10px;
-         font-size: 1.5rem;
+        font-size: 1rem;
+        margin: 0;
           margin-bottom: 10px;
     }
 }
